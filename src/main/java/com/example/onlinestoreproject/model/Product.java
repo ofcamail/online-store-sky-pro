@@ -6,7 +6,6 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.time.Instant;
 import java.util.Collection;
-
 @Entity
 @Getter
 @Setter

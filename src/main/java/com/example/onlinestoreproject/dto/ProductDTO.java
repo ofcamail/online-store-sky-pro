@@ -15,7 +15,6 @@ public class ProductDTO {
     private Instant creationDate;
     private Instant modificationDate;
     private Collection<CategoryDTO> categories;
-
     public static ProductDTO of(Product product) {
         ProductDTO dto = new ProductDTO();
         dto.setId(product.getId());

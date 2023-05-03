@@ -30,7 +30,6 @@ class OnlineStoreProjectApplicationTests {
     @Autowired
     CategoryRepository categoryRepository;
     private List<CategoryDTO> categoryList = new ArrayList<>();
-
     @BeforeEach
     void setUp(){
         Category category = new Category();

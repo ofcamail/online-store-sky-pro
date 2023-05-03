@@ -11,4 +11,3 @@ create table product
     name              VARCHAR(255)
 );
 
-

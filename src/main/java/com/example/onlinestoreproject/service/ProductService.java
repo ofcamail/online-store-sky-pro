@@ -26,7 +26,6 @@ public class ProductService {
         this.productRepository = productRepository;
         this.categoryRepository = categoryRepository;
     }
-
     @Transactional(readOnly = true)
     public List<ProductDTO> findProduct(Boolean sort) {
        List<Product> products = productRepository.findFechAllBy(

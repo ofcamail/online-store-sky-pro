@@ -18,5 +18,4 @@ public interface ProductRepository extends JpaRepository<Product,Long>, JpaSpeci
     List<Product> findAll(Specification<Product> specif);
 
 
-
 }

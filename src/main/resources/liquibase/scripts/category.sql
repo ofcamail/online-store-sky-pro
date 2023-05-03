@@ -12,4 +12,3 @@ insert into category
 (name) values ('cloth'),('accessories'),('shoes');
 
 
-

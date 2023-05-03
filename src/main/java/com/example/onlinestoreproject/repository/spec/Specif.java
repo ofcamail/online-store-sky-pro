@@ -6,7 +6,6 @@ import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.JoinType;
-
 public class Specif {
     public static Specification<Product> byName(String name){
         return (root, query, criteriaBuilder) -> {

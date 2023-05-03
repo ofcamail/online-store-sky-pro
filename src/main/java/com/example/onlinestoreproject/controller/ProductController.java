@@ -21,7 +21,6 @@ public class ProductController {
     public List<ProductDTO> findProduct(@RequestParam(defaultValue = "false", value = "sort") Boolean sort) {
         return productService.findProduct(sort);
     }
-
     @PostMapping
     public ProductDTO create(@RequestBody ProductDTO product){
         return productService.create(product);
